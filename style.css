@@ -1,0 +1,382 @@
+/*STRUCTURE CONTENT*/
+html {
+    font-size: 15px; 
+    font-family: sans-serif;
+    background: #fff;
+    color: #000;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    color: #8e9ca5;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.5; 
+    margin: 0;
+}
+
+header {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box; 
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    line-height: normal; 
+}
+
+/*HEADER AND NAVBAR*/
+.site-header {
+    position: relative;
+    z-index: 9; 
+}
+
+.site-header.collapsed-nav {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    left: 0; 
+}
+
+.header-bar {
+    *zoom: 1;
+    background: white;
+    border-radius: 5px; 
+}
+
+.header-bar:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; 
+}
+
+.branding {
+    float: left;
+    padding: 15px; 
+}
+
+.branding .logo, .branding .logo-type {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.branding .logo {
+    margin-right: 10px; 
+}
+
+.branding .logo-type .site-title {
+    margin: 0 0 5px;
+    font-size: 16px;
+    font-size: 1.0666666667em; 
+}
+
+.branding .logo-type .site-description {
+    font-size: 12px;
+    font-size: 0.8em; 
+}
+
+.main-navigation {
+    *zoom: 1;
+    float: right; 
+}
+
+.main-navigation:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; 
+}
+
+.main-navigation .menu-toggle {
+    display: inline-block;
+    vertical-align: middle;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-size: 1.3333333333em;
+    color: #8e9ca5;
+    outline: none;
+    display: none;
+    padding: 20px; 
+}
+
+.main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
+    color: #69acc7; 
+}
+
+@media screen and (max-width: 990px) {
+    .main-navigation .menu-toggle {
+        display: block; 
+    } 
+}
+
+.main-navigation .menu {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1; 
+}
+
+.main-navigation .menu:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; 
+}
+
+@media screen and (max-width: 990px) {
+    .main-navigation .menu {
+        display: none; 
+    } 
+}
+
+.main-navigation .menu .menu-item {
+    float: left; 
+}
+
+.main-navigation .menu .menu-item.home a {
+    padding: 28px 30px 31px; 
+}
+
+.main-navigation .menu .menu-item a {
+    font-size: 13px;
+    font-size: 0.8666666667em;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 32px 20px;
+    display: block;
+    color: #8e9ca5;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    border-bottom: 2px solid transparent;
+    line-height: normal; 
+}
+
+.main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
+    color: #69acc7;
+    border-bottom: 2px solid #69acc7; 
+}
+
+.mobile-navigation {
+    padding: 30px;
+    clear: both;
+    display: none; 
+}
+
+@media screen and (min-width: 991px) {
+    .mobile-navigation {
+        display: none !important; 
+    }
+}
+
+.mobile-navigation .menu {
+    border-radius: 5px;
+    background: #edf2f4;
+    list-style: none; 
+}
+
+.mobile-navigation .menu a {
+    color: #8e9ca5;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: .3s ease;
+    transition: .3s ease; 
+}
+
+.mobile-navigation .menu a:hover, .mobile-navigation .menu a:active {
+    background: #c6dfea;
+    color: white; 
+}
+
+.mobile-navigation .menu .menu-item {
+    border-bottom: 1px solid white; 
+}
+
+.mobile-navigation .menu .menu-item:last-child {
+    border-bottom: none; 
+}
+
+
+
+/*IMAGE SLIDES*/
+.hero {
+    *zoom: 1;
+    position: relative; 
+}
+
+.hero:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; 
+}
+
+.hero .slides {
+    list-style: none;
+    *zoom: 1; 
+}
+
+.hero .slides:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; 
+}
+
+.hero .slides li {
+    width: 100%;
+    margin-right: -100%;
+    float: left;
+    min-height: 720px;
+    padding-bottom: 100px;
+    background-size: cover; 
+}
+
+.hero .slide-content {
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero .slide-content .slide-title {
+    font-size: 60px;
+    font-size: 4em;
+    font-weight: 300; 
+}
+
+.hero .slide-content p {
+    font-size: 24px;
+    font-size: 1.6em; 
+}
+
+.hero .slide-content .button, .hero .slide-content form input[type="submit"], form .hero .slide-content input[type="submit"], .hero .slide-content form button, form .hero .slide-content button, .hero .slide-content form input[type="reset"], form .hero .slide-content input[type="reset"] {
+    font-size: 20px;
+    font-size: 1.3333333333em; 
+}
+
+.hero .flex-control-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 8;
+    text-align: center; 
+}
+
+.hero .flex-control-nav li {
+display: inline-block;
+margin: 30px 5px; 
+}
+
+.hero .flex-control-nav li a {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    position: relative;
+    cursor: pointer; 
+}
+
+.hero .flex-control-nav li a:before {
+    content: " ";
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #69acc7;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); 
+}
+
+.hero .flex-control-nav li a.flex-active:before, .hero .flex-control-nav li a:hover:before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    *zoom: 1; 
+}
+
+.container:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; 
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px; 
+    } 
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px; 
+    } 
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px; 
+    } 
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    *zoom: 1; 
+}
+
+.container-fluid:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; 
+}
