@@ -472,12 +472,12 @@ margin: 30px 5px;
     font-size: 30px;
     font-size: 2em;
     font-weight: 300;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 
 .fullwidth-block {
-    padding: 50px 0; 
+    padding: 50px 0;
 }
 
 .feature {
@@ -486,33 +486,33 @@ margin: 30px 5px;
     border: 1px solid #e1e8ec;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     background-color: white;
 }
 
 .feature .feature-image {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .feature .feature-title {
     font-size: 30px;
     font-size: 2em;
-    font-weight: 300; 
+    font-weight: 300;
 }
-  
+
 .feature p {
     font-size: 16px;
     font-size: 1.0666666667em;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .post {
     position: relative;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .post .featured-image {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .post .featured-image img {
@@ -520,21 +520,21 @@ margin: 30px 5px;
     border-radius: 5px;
     width: 100%;
     height: auto;
-    display: block; 
+    display: block;
 }
 
 .post .entry-title {
     font-size: 24px;
     font-size: 1.6em;
     font-weight: 300;
-    margin: 0 0 10px; 
+    margin: 0 0 10px;
 }
 
 .post .date {
     display: block;
     margin-bottom: 30px;
     font-size: 11px;
-    font-size: 0.7333333333em; 
+    font-size: 0.7333333333em;
 }
 
 .post:after {
@@ -543,7 +543,7 @@ margin: 30px 5px;
     margin-top: 30px;
     width: 22px;
     height: 11px;
-    background: url(images/arrow-long.png); 
+    background: url(images/arrow-long.png);
 }
 
 
@@ -551,7 +551,7 @@ margin: 30px 5px;
 /* Row */
 .row {
     margin-left: 5%;
-    *zoom: 1; 
+    *zoom: 1;
 }
 
 .row:after {
@@ -559,7 +559,7 @@ margin: 30px 5px;
     clear: both;
     display: block;
     overflow: hidden;
-    height: 0; 
+    height: 0;
 }
 
 .col-3 {
@@ -570,14 +570,14 @@ margin: 30px 5px;
 }
 
 .col-4 {
-    width: 33.3333333333%; 
+    width: 33.3333333333%;
 }
 
 .col-6 {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
 }
 
 @media  {
