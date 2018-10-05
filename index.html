@@ -10,6 +10,9 @@
     <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Loading main css file -->
     <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -29,46 +32,48 @@
                         <button class="menu-toggle"><i class="fa fa-bars"></i></button>
                         <ul class="menu">
                             <li class="home menu-item current-menu-item"><a href="index.html"><img src="images/home-icon.png" alt="Home"></a></li>
-                            <li class="menu-item"><a href="">About Us</a></li>
+                            <li class="menu-item"><a href="#02">About Us</a></li>
                         </ul>
                     </nav>
                     <div class="mobile-navigation"></div>
                 </div>
             </div>
         </header>
+
+
         <!-- Images Slides -->
         <div class="hero">
           <ul class="slides">
             <!-- SLIDE ONE -->
             <li data-bg-image="images/slider-1.jpg">
-              <div class="container">
-  							<div class="slide-content">
-  								<h2 class="slide-title">Phylum Porifera</h2>
-  								<p></p>
-  								<a href="#" class="button">See details</a>
-  							</div>
-  						</div>
-  					</li>
+                <div class="container">
+  					<div class="slide-content">
+  						<h2 class="slide-title">Phylum Porifera</h2>
+  						<p>Test</p>
+  						<a href="#" class="button">See details</a>
+  					</div>
+  				</div>
+  			</li>
             <!-- SLIDE TWO -->
-  					<li data-bg-image="images/slider-2.jpg">
-  						<div class="container">
-  							<div class="slide-content">
-  								<h2 class="slide-title">Phylum Cnidaria</h2>
-  								<p></p>
-  								<a href="#" class="button">See details</a>
-  							</div>
-  						</div>
-  					</li>
+  			<li data-bg-image="images/slider-2.jpg">
+  				<div class="container">
+  					<div class="slide-content">
+  						<h2 class="slide-title">Phylum Cnidaria</h2>
+  						<p></p>
+  						<a href="#" class="button">See details</a>
+  					</div>
+  				</div>
+  			</li>
             <!-- SLIDE THREE -->
-  					<li data-bg-image="images/slider-3.jpg">
-  						<div class="container">
-  							<div class="slide-content">
-  								<h2 class="slide-title">Phylum Platyhelminthes</h2>
-  								<p> </p>
-  								<a href="#" class="button">See details</a>
-  							</div>
-  						</div>
-  					</li>
+  			<li data-bg-image="images/slider-3.jpg">
+  				<div class="container">
+  					<div class="slide-content">
+  						<h2 class="slide-title">Phylum Platyhelminthes</h2>
+  						<p> </p>
+  						<a href="#" class="button">See details</a>
+  					</div>
+  				</div>
+  			</li>
             <!-- SLIDE FOUR -->
             <li data-bg-image="images/slider-3.jpg">
               <div class="container">
@@ -131,6 +136,138 @@
             </li>
   				</ul>
   			</div>
+
+
+            <!-- Caterory -->
+            <main class="main-content">
+                <div class="fullwidth-block">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Icon One -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-research-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Porifera</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- Icon Two -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-medicine-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Cnidaria</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- Icon Three -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-genetics-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Platyhelminthes</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- Icon Four -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-energy-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Aschelminthes</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- Icon Five -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-energy-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Annelida</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- Icon Six -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-energy-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Arthropoda</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- Icon Seven -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-energy-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Mollusca</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- Icon Eight -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-energy-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Echinodermata</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                            <!-- Icon Nine -->
+                            <div class="col-3 col-6">
+                                <div class="feature">
+                                    <img src="images/icon-energy-small.png" alt="" class="feature-image">
+                                    <h2 class="feature-title">Chordata</h2>
+                                    <p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
+                                    <a href="" class="button">Learn more</a>
+                                </div>
+                            </div>
+                        </div> <!-- .row -->
+                    </div> <!-- .container -->
+                </div> <!-- .fullwidth-block -->
+
+
+
+                <div class="fullwidth-block" data-bg-color="#edf2f4" id="02">
+                    <div class="container">
+                        <h2 class="section-title">About Us</h2>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="post">
+                                        <figure class="featured-image"><img src="images/news-1.jpg" alt=""></figure>
+                                        <h2 class="entry-title"><a href="">Magni dolores rationale</a></h2>
+                                        <small class="date">2 oct 2014</small>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="post">
+                                        <figure class="featured-image"><img src="images/news-2.jpg" alt=""></figure>
+                                        <h2 class="entry-title"><a href="">Perspiciatis unde omnus</a></h2>
+                                        <small class="date">2 oct 2014</small>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="post">
+                                    <figure class="featured-image"><img src="images/news-3.jpg" alt=""></figure>
+                                    <h2 class="entry-title"><a href="">Voluptatem laundantium  totam</a></h2>
+                                    <small class="date">2 oct 2014</small>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
+                                </div>
+                            </div>
+                        </div> <!-- .row -->
+                    </div> <!-- .container -->
+                </div> <!-- .fullwidth-block -->
+
+            <footer>
+                
+            </footer>
+
+
+            </main>
 
 
 
