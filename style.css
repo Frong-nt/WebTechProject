@@ -272,8 +272,8 @@ p {
 
 /*IMAGE SLIDES*/
 .hero {
-    *zoom: 1;
     position: relative;
+    *zoom: 1;
 }
 
 .hero:after {
@@ -306,6 +306,34 @@ p {
     background-size: cover;
 }
 
+.hero .slides .bg-cover1 {
+  background-image: url("http://animalli.com/wp-content/uploads/2016/11/fishes-sea-sealife-underwater-coral-art-psychedelic-artwork-life-ocean-live-fish-wallpaper-ipad.jpg");
+}
+.hero .slides .bg-cover2 {
+  background-image: url("https://i1.wp.com/inovabioedu.com.br/wp-content/uploads/2017/02/666924.jpg?fit=1920%2C1080");
+}
+.hero .slides .bg-cover3 {
+  background-image: url("https://photos.simonilett.com/wp-content/uploads/2016/11/nudibranch-hypselodoris-pulchella-simon-ilett-underwater-photography-1920x1080.jpg");
+}
+.hero .slides .bg-cover4 {
+  background-image: url("https://ak1.picdn.net/shutterstock/videos/12302321/thumb/1.jpg");
+}
+.hero .slides .bg-cover5 {
+  background-image: url("https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1452997901/030989_Matthew_Meier_xsmw0u.jpg");
+}
+.hero .slides .bg-cover6 {
+  background-image: url("http://biodiversitybasics.files.wordpress.com/2014/03/ants.jpg");
+}
+.hero .slides .bg-cover7 {
+  background-image: url("https://9fc6ff.medialib.edu.glogster.com/UHb4LGETYREGvVMDDkdh/media/a4/a4aee882dc171ecd38f86e47ef9b9cc3e476f38c/octopus.jpg");
+}
+.hero .slides .bg-cover8 {
+  background-image: url("https://i.ytimg.com/vi/4ZMqyf5vDs0/maxresdefault.jpg");
+}
+.hero .slides .bg-cover9 {
+  background-image: url("https://i.pinimg.com/originals/0a/82/1b/0a821b907790ba010080ce47b69960da.jpg");
+}
+
 .hero .slide-content {
     text-align: center;
     padding-top: 300px;
@@ -318,6 +346,7 @@ p {
     font-size: 60px;
     font-size: 4em;
     font-weight: 300;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hero .slide-content p {
@@ -481,9 +510,8 @@ margin: 30px 5px;
 }
 
 .feature {
-    
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     margin-bottom: 30px;
     text-align: center;
     border: 1px solid #e1e8ec;
@@ -502,6 +530,24 @@ margin: 30px 5px;
 }
 .phylum-background3{
     background-image: url("http://www.starfish.ch/Fotos/worms-Wuermer/plathelminthes-Plattwurm/Pseudobiceros-gloriosus3.jpg");
+}
+.phylum-background4{
+    background-image: url("http://photos1.blogger.com/blogger2/4255/902/400/IMGP3384.jpg");
+}
+.phylum-background5{
+    background-image: url("https://www.thefix.com/sites/default/files/styles/article/public/earthworm%20on%20leaf.jpg");
+}
+.phylum-background6{
+    background-image: url("https://www.natgeokids.com/wp-content/uploads/2017/05/scorpion-facts-3.jpg");
+}
+.phylum-background7{
+    background-image: url("https://www.weet-magazine.nl/wp-content/uploads/2016/07/snail-1124028_960_720-660x400.jpg");
+}
+.phylum-background8{
+    background-image: url("http://www.untamedscience.com/science/wp-content/uploads/2013/11/Screen-Shot-2013-11-03-at-7.07.10-PM.png");
+}
+.phylum-background9{
+    background-image: url("https://vignette.wikia.nocookie.net/cats/images/e/ef/African_lion_king-wide.jpg/revision/latest?cb=20131126052253&path-prefix=en");
 }
 .feature .frame{
     background: rgba(0, 0, 0, 0.5);
