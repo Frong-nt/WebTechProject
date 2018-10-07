@@ -481,6 +481,9 @@ margin: 30px 5px;
 }
 
 .feature {
+    
+    background-size: cover;
+    background-position: center; 
     margin-bottom: 30px;
     text-align: center;
     border: 1px solid #e1e8ec;
@@ -488,8 +491,26 @@ margin: 30px 5px;
     padding: 30px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     background-color: white;
+    color:white;
+    text-shadow: 2px 2px rgb(0,0,0);
 }
-
+.phylum-background1{
+    background-image: url("https://images.slideplayer.com/23/6677217/slides/slide_3.jpg");
+}
+.phylum-background2{
+    background-image: url("https://a-z-animals.com/media/animals/images/original/jellyfish4.jpg");
+}
+.phylum-background3{
+    background-image: url("http://www.starfish.ch/Fotos/worms-Wuermer/plathelminthes-Plattwurm/Pseudobiceros-gloriosus3.jpg");
+}
+.feature .frame{
+    background: rgba(0, 0, 0, 0.5);
+}
+.feature .button{
+    color:black;
+    text-shadow: none;
+    margin-bottom: 10px;
+}
 .feature .feature-image {
     margin-bottom: 20px;
 }
