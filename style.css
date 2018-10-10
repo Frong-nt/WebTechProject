@@ -14,7 +14,7 @@ body {
     font-weight: 300;
     line-height: 1.5;
     margin: 0;
-    background-color: #000000;
+    background-color: #000;
 }
 
 header {
@@ -134,14 +134,15 @@ p {
 
 .branding .logo-type .site-title {
     margin: 0 0 5px;
+    margin-top: 5%;
     font-size: 16px;
-    font-size: 1.0666666667em;
+    font-size: 2em;
 }
 
-.branding .logo-type .site-description {
+/*.branding .logo-type .site-description {
     font-size: 12px;
     font-size: 0.8em;
-}
+}*/
 
 .main-navigation {
     *zoom: 1;
@@ -307,31 +308,31 @@ p {
 }
 
 .hero .slides .bg-cover1 {
-  background-image: url("http://animalli.com/wp-content/uploads/2016/11/fishes-sea-sealife-underwater-coral-art-psychedelic-artwork-life-ocean-live-fish-wallpaper-ipad.jpg");
+  background-image: url("https://9fc6ff.medialib.edu.glogster.com/UHb4LGETYREGvVMDDkdh/media/a4/a4aee882dc171ecd38f86e47ef9b9cc3e476f38c/octopus.jpg");
 }
 .hero .slides .bg-cover2 {
-  background-image: url("https://i1.wp.com/inovabioedu.com.br/wp-content/uploads/2017/02/666924.jpg?fit=1920%2C1080");
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/11/28/844809/b0b19945ac809d4fae253cc3872e494e.jpg");
 }
 .hero .slides .bg-cover3 {
-  background-image: url("https://photos.simonilett.com/wp-content/uploads/2016/11/nudibranch-hypselodoris-pulchella-simon-ilett-underwater-photography-1920x1080.jpg");
+  background-image: url("http://biodiversitybasics.files.wordpress.com/2014/03/ants.jpg");
 }
 .hero .slides .bg-cover4 {
-  background-image: url("https://ak1.picdn.net/shutterstock/videos/12302321/thumb/1.jpg");
+  background-image: url("https://i.pinimg.com/originals/0a/82/1b/0a821b907790ba010080ce47b69960da.jpg");
 }
 .hero .slides .bg-cover5 {
   background-image: url("https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1452997901/030989_Matthew_Meier_xsmw0u.jpg");
 }
 .hero .slides .bg-cover6 {
-  background-image: url("http://biodiversitybasics.files.wordpress.com/2014/03/ants.jpg");
+  background-image: url("https://photos.simonilett.com/wp-content/uploads/2016/11/nudibranch-hypselodoris-pulchella-simon-ilett-underwater-photography-1920x1080.jpg");
 }
 .hero .slides .bg-cover7 {
-  background-image: url("https://9fc6ff.medialib.edu.glogster.com/UHb4LGETYREGvVMDDkdh/media/a4/a4aee882dc171ecd38f86e47ef9b9cc3e476f38c/octopus.jpg");
+  background-image: url("https://i1.wp.com/inovabioedu.com.br/wp-content/uploads/2017/02/666924.jpg?fit=1920%2C1080");
 }
 .hero .slides .bg-cover8 {
-  background-image: url("https://i.ytimg.com/vi/4ZMqyf5vDs0/maxresdefault.jpg");
+  background-image: url("https://s.newsweek.com/sites/www.newsweek.com/files/styles/feature/public/2014/09/25/starfish.png");
 }
 .hero .slides .bg-cover9 {
-  background-image: url("https://i.pinimg.com/originals/0a/82/1b/0a821b907790ba010080ce47b69960da.jpg");
+  background-image: url("https://sites.google.com/site/bioppk/_/rsrc/1472680087853/home/xanacakr-satw/fi-lamne-ma-tho-da-phylum-nematoda/Nematoda2.jpg?height=1301&amp;width=1609");
 }
 
 .hero .slide-content {
@@ -344,9 +345,9 @@ p {
 
 .hero .slide-content .slide-title {
     font-size: 60px;
-    font-size: 4em;
+    font-size: 6em;
     font-weight: 300;
-    background: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px #000;
 }
 
 .hero .slide-content p {
@@ -509,6 +510,11 @@ margin: 30px 5px;
     padding: 50px 0;
 }
 
+.fullwidth-block-2 {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
 .feature {
     background-size: cover;
     background-position: center;
@@ -657,3 +663,16 @@ margin: 30px 5px;
         float: left;
         width: 33.3333333333%;
     }
+
+/* Content Properties */
+.content-title h1 {
+    color: white;
+}
+
+.main-content .fullwidth-block .container .content-font p {
+    font-size: 24px;
+    color: #000;
+}
+.content{
+    color: white;
+}
