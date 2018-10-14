@@ -306,7 +306,7 @@ p {
     width: 100%;
     margin-right: -100%;
     float: left;
-    min-height: 753px !important;
+    min-height: 720px;
     padding-bottom: 100px;
     background-size: cover;
 }
@@ -507,7 +507,6 @@ margin: 30px 5px;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: 30px;
-    /*text-shadow: 5px 5px #000000;*/
 }
 
 
