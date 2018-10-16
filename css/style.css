@@ -15,10 +15,10 @@ body {
     line-height: 1.5;
     margin: 0;
     /*background-color: #000;*/
-background: #FDFC47;  /* fallback for old browsers */
-/*background: -webkit-linear-gradient(to top, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
-/*background: linear-gradient(to top, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-image: linear-gradient(to right, #0f7282, #006d70, #006755, #005f35, #00550b);
+    background: #FDFC47;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to top, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to top, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right, #0f7282, #006d70, #006755, #005f35, #00550b);
 }
 
 div {
@@ -29,8 +29,8 @@ div {
     box-sizing: border-box;
 }
 
-html {
-  font-size: 15px; }
+/* html {
+  font-size: 15px; } */
 
 h1 {
     font-size: 2em;
@@ -228,7 +228,7 @@ p {
     border-bottom: 2px solid #69acc7;
 }
 
-.mobile-navigation {
+/* .mobile-navigation {
     padding: 30px;
     clear: both;
     display: none;
@@ -267,7 +267,7 @@ p {
 
 .mobile-navigation .menu .menu-item:last-child {
     border-bottom: none;
-}
+} */
 
 
 
@@ -310,7 +310,7 @@ p {
 
 .hero .slides .bg-cover1 {
   background-image: url("https://9fc6ff.medialib.edu.glogster.com/UHb4LGETYREGvVMDDkdh/media/a4/a4aee882dc171ecd38f86e47ef9b9cc3e476f38c/octopus.jpg");
-  
+
 }
 .hero .slides .bg-cover2 {
   background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/11/28/844809/b0b19945ac809d4fae253cc3872e494e.jpg");
@@ -643,7 +643,7 @@ margin: 30px 5px;
     position: relative;
     min-height: 1px;
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
 }
 
 .col-4 {
@@ -681,14 +681,14 @@ margin: 30px 5px;
     background-color: rgb(3, 47, 79);
     padding: 5%;
     border-radius: 20px;
-    
+
 }
 .content2{
     background-color: rgb(3, 47, 79);
     /* padding: 5%; */
     border-radius: 20px;
 }
-  
+
 .content p, .content ul{
     font-size: 25px;
 }
