@@ -99,15 +99,15 @@ p {
 
 .site-header.collapsed-nav {
     position: absolute;
-    top: 50px;
+    /*top: 50px;*/
     width: 100%;
     left: 0;
 }
 
 .header-bar {
-    *zoom: 1;
-    background: white;
-    border-radius: 5px;
+    /**zoom: 1;*/
+    background: black;
+    /*border-radius: 5px;*/
 }
 
 .header-bar:after {
@@ -275,7 +275,6 @@ p {
 .hero {
     position: relative;
     *zoom: 1;
-
 }
 
 .hero:after {
@@ -310,7 +309,6 @@ p {
 
 .hero .slides .bg-cover1 {
   background-image: url("https://9fc6ff.medialib.edu.glogster.com/UHb4LGETYREGvVMDDkdh/media/a4/a4aee882dc171ecd38f86e47ef9b9cc3e476f38c/octopus.jpg");
-
 }
 .hero .slides .bg-cover2 {
   background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/11/28/844809/b0b19945ac809d4fae253cc3872e494e.jpg");
@@ -326,6 +324,7 @@ p {
 }
 .hero .slides .bg-cover6 {
   background-image: url("https://photos.simonilett.com/wp-content/uploads/2016/11/nudibranch-hypselodoris-pulchella-simon-ilett-underwater-photography-1920x1080.jpg");
+  /*opacity: 0.5 !important;*/
 }
 .hero .slides .bg-cover7 {
   background-image: url("https://i1.wp.com/inovabioedu.com.br/wp-content/uploads/2017/02/666924.jpg?fit=1920%2C1080");
@@ -349,7 +348,8 @@ p {
     font-size: 60px;
     font-size: 6em;
     font-weight: 300;
-    text-shadow: 2px 2px #000;
+    text-shadow: 3px 3px #000;
+    /*opacity: 0.8 !important;*/
 }
 
 .hero .slide-content p {
@@ -708,4 +708,47 @@ margin: 30px 5px;
 }
 .intro p{
     font-size:20px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    /*font-size: 25px;    */
+    border: none;
+    outline: none;
+    color: #69acc7;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+        font-size: 16px;
+    font-size: 2em;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #69acc7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

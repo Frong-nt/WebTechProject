@@ -1,6 +1,410 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+/*STRUCTURE CONTENT*/
+html {
+    font-size: 15px;
+    font-family: 'Athiti', sans-serif;
+    background: #fff;
+    color: #000;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 
+body {
+    color: #8e9ca5;
+    font-family: 'Athiti', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
+    /*background-color: #000;*/
+    background: #FDFC47;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to top, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to top, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right, #0f7282, #006d70, #006755, #005f35, #00550b);
+
+}
+
+div {
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* html {
+  font-size: 15px; } */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    color: white;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #777;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #69acc7;
+}
+
+address {
+    font-style: normal;
+}
+
+p {
+    margin-top: 0;
+    color: white;
+}
+
+/* Position the navbar container inside the image */
+/*.container {
+    position: absolute;
+    margin: 50px 40px 30px 250px;
+    width: auto;
+}*/
+
+/*HEADER AND NAVBAR*/
+.site-header {
+    position: relative;
+    z-index: 9;
+}
+
+.site-header.collapsed-nav {
+    position: absolute;
+    /*top: 50px;*/
+    width: 100%;
+    left: 0;
+}
+
+.header-bar {
+    /**zoom: 1;*/
+    background: black;
+    /*border-radius: 5px;*/
+}
+
+.header-bar:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+.branding {
+    float: left;
+    padding: 15px;
+}
+
+.branding .logo, .branding .logo-type {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.branding .logo {
+    margin-right: 10px;
+}
+
+.branding .logo-type .site-title {
+    margin: 0 0 5px;
+    margin-top: 5%;
+    font-size: 16px;
+    font-size: 2em;
+}
+
+.main-navigation {
+    *zoom: 1;
+    float: right;
+}
+
+.main-navigation:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+.main-navigation .menu-toggle {
+    display: inline-block;
+    vertical-align: middle;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-size: 1.3333333333em;
+    color: #8e9ca5;
+    outline: none;
+    display: none;
+    padding: 20px;
+}
+
+.main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
+    color: #69acc7;
+}
+
+@media screen and (max-width: 990px) {
+    .main-navigation .menu-toggle {
+        display: block;
+    }
+}
+
+.main-navigation .menu {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1;
+}
+
+.main-navigation .menu:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .main-navigation .menu {
+        display: none;
+    }
+}
+
+.main-navigation .menu .menu-item {
+    float: left;
+}
+
+.main-navigation .menu .menu-item.home a {
+    padding: 28px 30px 31px;
+}
+
+.main-navigation .menu .menu-item a {
+    font-size: 13px;
+    font-size: 0.8666666667em;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 32px 20px;
+    display: block;
+    color: #8e9ca5;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    border-bottom: 2px solid transparent;
+    line-height: normal;
+}
+
+.main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
+    color: #69acc7;
+    border-bottom: 2px solid #69acc7;
+}
+
+/*IMAGE SLIDES*/
+.hero {
+    position: relative;
+    *zoom: 1;
+}
+
+.hero:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+.hero .slides {
+    list-style: none;
+    *zoom: 1;
+}
+
+.hero .slides:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+.hero .slides li {
+    width: 100%;
+    margin-right: -100%;
+    float: left;
+    min-height: 753px !important;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+
+.hero .slides .bg-cover2 {
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/11/28/844809/b0b19945ac809d4fae253cc3872e494e.jpg");
+}
+
+.hero .slide-content {
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero .slide-content .slide-title {
+    font-size: 60px;
+    font-size: 6em;
+    font-weight: 300;
+    text-shadow: 3px 3px #000;
+    /*opacity: 0.8 !important;*/
+}
+
+.hero .slide-content p {
+    font-size: 24px;
+    font-size: 1.6em;
+}
+
+.hero .slide-content .button, .hero .slide-content form input[type="submit"], form .hero .slide-content input[type="submit"], .hero .slide-content form button, form .hero .slide-content button, .hero .slide-content form input[type="reset"], form .hero .slide-content input[type="reset"] {
+    font-size: 20px;
+    font-size: 1.3333333333em;
+}
+
+.hero .flex-control-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 8;
+    text-align: center;
+}
+
+.hero .flex-control-nav li {
+    display: inline-block;
+    margin: 30px 5px;
+}
+
+.hero .flex-control-nav li a {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero .flex-control-nav li a:before {
+    content: " ";
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #69acc7;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.hero .flex-control-nav li a.flex-active:before, .hero .flex-control-nav li a:hover:before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+/* CONTAINER */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    *zoom: 1;
+}
+
+.container:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    *zoom: 1;
+}
+
+.container-fluid:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+/* อุ๋มอิ๋ม Zone*/
 .bg-img {
     /* The image used */
     background-image: url("pori.jpg");
@@ -14,15 +418,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
     
     /* Needed to position the navbar */
     position: relative;
-}
-
-/* Position the navbar container inside the image */
-.container {
-    position: absolute;
-    margin: 50px 40px 30px 250px;
-    width: auto;
-
-
 }
 
 /* The navbar */
@@ -45,12 +440,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
-  
 }
+
 .after {
     float: right;
 }
-
 
 .topnav a:hover {
     background-color: #ddd;
@@ -97,9 +491,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: block;
 }
 
-/* End navbar */
-
-/* End navbar */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 700px;
@@ -110,6 +501,88 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .price {
-  color: grey;
+  color: white;
   font-size: 22px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-img {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
