@@ -508,6 +508,9 @@ p {
 /* Position the image container (needed to position the left and right arrows) */
 .container-img {
   position: relative;
+  width: 50%;
+  margin-left: 25%;
+  background-color: black;
 }
 
 /* Hide the images by default */
@@ -585,4 +588,9 @@ p {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.img-resize {
+    width: 500px;
+    height: 500px;
 }
