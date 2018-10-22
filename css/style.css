@@ -107,7 +107,7 @@ p {
 .header-bar {
     /**zoom: 1;*/
     /*background: white;
-    /*border-radius: 5px;*/ 
+    /*border-radius: 5px;*/
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -116,7 +116,7 @@ p {
 
 
 
-  
+
 }
 
 .header-bar:after {
@@ -129,7 +129,7 @@ p {
 
 .branding {
     float: left;
-    padding: 15px;
+    padding: 10px 15px;
 }
 
 .branding .logo, .branding .logo-type {
@@ -215,7 +215,7 @@ p {
 }
 
 .main-navigation .menu .menu-item.home a {
-    padding: 28px 30px 31px;
+    /* padding: 28px 30px 31px; */
 }
 
 .main-navigation .menu .menu-item a {
@@ -223,18 +223,18 @@ p {
     font-size: 0.966666667em;
     text-transform: uppercase;
     font-weight: 400;
-    padding: 32px 20px;
+    padding: 32px 30px 5px;
     display: block;
-    color: #8e9ca5;
+    /* color: #8e9ca5; */
     -webkit-transition: .3s ease;
     transition: .3s ease;
-    border-bottom: 2px solid transparent;
+    /* border-bottom: 2px solid transparent; */
     line-height: normal;
 }
 
 .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
     color: #69acc7;
-    border-bottom: 2px solid #69acc7;
+    /* border-bottom: 2px solid #69acc7; */
 }
 
 /* .mobile-navigation {
@@ -525,7 +525,7 @@ margin: 30px 5px;
 
 .fullwidth-block-2 {
     padding: 50px 0;
-    background-color: #fff;    
+    background-color: #fff;
 }
 
 .feature {
