@@ -505,6 +505,7 @@ margin: 30px 5px;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: 30px;
+    color: black;
     /*text-shadow: 5px 5px #000000;*/
 }
 
@@ -515,7 +516,7 @@ margin: 30px 5px;
 
 .fullwidth-block-2 {
     padding: 50px 0;
-    background-color: #fff;
+    background-color: #fff;    
 }
 
 .feature {
@@ -751,4 +752,39 @@ margin: 30px 5px;
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/*ABOUT US;    */
+.card1 {
+  box-shadow: 0 18px 38px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title1 {
+  color: black;
+  font-size: 18px;
+}
+
+.title2 {
+  color: black;
+  font-size: 15px;
+}
+
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card1 button:hover {
+  opacity: 0.7;
 }
