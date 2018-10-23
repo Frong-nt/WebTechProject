@@ -12,6 +12,7 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/fade.js"></script>
 </head>
 
 <body>
@@ -131,38 +132,37 @@
                 <div class="fullwidth-block">
                     <div class="container">
                         <div class="content">
-                        <h1 class="content-title">ลักษณะของสิ่งมีชีวิตในอาณาจักรสัตว์</h1>
-                        <p class="content-font">&emsp;&emsp;สิ่งมีชีวิตในอาณาจักรสัตว์ทั้งหมดจะเป็นสิ่งมีชีวิตประเภทยูคาริโอต (Eucaryote) คือ มีเยื่อหุ้มนิวเคลียส (Neclear Membrane) ไม่มีผนังเซลล์ (Cell Wall) แต่ไม่สามารถสร้างอาหารเองได้ (Heterotroph) เนื่องจากไม่มีคลอโรฟิลล์ (Chlorophyll) นอกจากนี้สิ่งมีชีวิตในอาณาจักรนี้มีหลายเซลล์ (Multicellular) ทำให้เซลล์มีการจัดเรียงตัวกันเป็นเนื้อเยื่อ (Tissue) เกณฑ์ในการจําแนกสัตว์ออกเป็นกลุ่มต่างๆ จะพิจารณาจากลักษณะต่างๆ ของสัตว์ ซึ่งสอดคล้องกับข้อมูลของสารชีวโมเลกุล ดังนี้ <br>
-                            <ul>
-                                &emsp;&emsp;&emsp;&emsp;1. เนื้อเยื่อ (Tissue)   แบ่งออกเป็น 2 กลุ่ม คือ กลุ่มที่ไม่มีเนื้อเยื่อที่แท้จริง (Parazoa) และ กลุ่มที่มีเนื้อเยื่อที่แท้จริง (Eumetazoa) <br>
+                        <h1 class="content-title hide">ลักษณะของสิ่งมีชีวิตในอาณาจักรสัตว์</h1>
+                        <p class="content-font hide">&emsp;&emsp;สิ่งมีชีวิตในอาณาจักรสัตว์ทั้งหมดจะเป็นสิ่งมีชีวิตประเภทยูคาริโอต (Eucaryote) คือ มีเยื่อหุ้มนิวเคลียส (Neclear Membrane) ไม่มีผนังเซลล์ (Cell Wall) แต่ไม่สามารถสร้างอาหารเองได้ (Heterotroph) เนื่องจากไม่มีคลอโรฟิลล์ (Chlorophyll) นอกจากนี้สิ่งมีชีวิตในอาณาจักรนี้มีหลายเซลล์ (Multicellular) ทำให้เซลล์มีการจัดเรียงตัวกันเป็นเนื้อเยื่อ (Tissue) เกณฑ์ในการจําแนกสัตว์ออกเป็นกลุ่มต่างๆ จะพิจารณาจากลักษณะต่างๆ ของสัตว์ ซึ่งสอดคล้องกับข้อมูลของสารชีวโมเลกุล ดังนี้ <br>
+                        </p>
+                                <p class="hide">&emsp;&emsp;&emsp;&emsp;1. เนื้อเยื่อ (Tissue)   แบ่งออกเป็น 2 กลุ่ม คือ กลุ่มที่ไม่มีเนื้อเยื่อที่แท้จริง (Parazoa) และ กลุ่มที่มีเนื้อเยื่อที่แท้จริง (Eumetazoa) <br>
                                 &emsp;&emsp;&emsp;&emsp;2. ลักษณะสมมาตร (Symmetry)   แบ่งออกเป็น 2 ลักษณะ คือ สมมาตรตามรัศมี (Radial Symmetry) และสมมาตรตามด้านข้าง (Blateral Symmetry) <br>
-                                <div class="intro">
+                                <div class="intro hide">
                                     <img src="images/Symmetry.jpg">
                                     <p><strong>ก. สมมาตรตามรัศมี ข.สมมาตรตามด้านข้าง</strong></p>
-                                </div>
-                                &emsp;&emsp;&emsp;&emsp;3. การเปลี่ยนแปลงของบลาสโทพอร์ (Blastopore) มี 2 แบบ คือ พวกที่บลาสโทพอร์เปลี่ยนเป็นช่องปาก (Protostomia) และพวกที่บลาสโทพอร์เปลี่ยนเป็นทวารหนัก (Deuterostomia) <br>
-                                <div class="intro">
+                                </div></p>
+                                <p class="hide">&emsp;&emsp;&emsp;&emsp;3. การเปลี่ยนแปลงของบลาสโทพอร์ (Blastopore) มี 2 แบบ คือ พวกที่บลาสโทพอร์เปลี่ยนเป็นช่องปาก (Protostomia) และพวกที่บลาสโทพอร์เปลี่ยนเป็นทวารหนัก (Deuterostomia) <br>
+                                <div class="intro hide">
                                     <img src="images/Blastopore.jpg">
                                     <p><strong>ก.โพโทสโตเมีย ข.ดิวเทอโรสเทอเมีย</strong></p>
-                                </div>
-                                &emsp;&emsp;&emsp;&emsp;4. การเจริญในระยะตัวอ่อน    แบ่งออกเป็น 2 กลุ่ม คือ กลุ่มที่มีระยะตัวอ่อนแบบโทรโคฟอร์ (Trochophore) และกลุ่มที่มีระยะตัวอ่อนมแบบเอกไดโซซัว (Ecdysozoa)
-                                <div class="intro">
+                                </div></p>
+                                <p class="hide">&emsp;&emsp;&emsp;&emsp;4. การเจริญในระยะตัวอ่อน    แบ่งออกเป็น 2 กลุ่ม คือ กลุ่มที่มีระยะตัวอ่อนแบบโทรโคฟอร์ (Trochophore) และกลุ่มที่มีระยะตัวอ่อนมแบบเอกไดโซซัว (Ecdysozoa)
+                                <div class="intro hide">
                                     <img src="images/embryo.jpg">
                                     <p><strong>ระยะตัวอ่อนแบบโทรโคฟอร์</strong></p>
-                                </div>
-                            </ul>
-                        </p>
+                                </div></p>
+                        
                         </div>
                     </div>
               </div>
 
                 <div class="fullwidth-block">
                     <div class="container">
-                        <center><h1 class="feature-title" style="color:white">ไฟลัมของสิ่งมีชีวิตในอาณาจักรสัตว์</h1></center><br>
+                        <center><h1 class="feature-title hide" style="color:white; font-weight: bold;">ไฟลัมของสิ่งมีชีวิตในอาณาจักรสัตว์</h1></center><br>
                         <div class="row">
                             <!-- Icon One -->
                             <div class="col-3 col-6">
-                                <div class="feature  phylum-background1">
+                                <div class="feature  phylum-background1 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">พอริเฟอรา</h2>
                                         <p>สิ่งมีชีวิตที่มีวิวัฒนาการที่ต่ำที่สุดในอาณาจักรสัตว์</p>
@@ -172,7 +172,7 @@
                             </div>
                             <!-- Icon Two -->
                             <div class="col-3 col-6">
-                                <div class="feature phylum-background2">
+                                <div class="feature phylum-background2 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">ไนดาเรีย</h2>
                                         <p>สิ่งมีชีวิตที่มีรูปร่างเป็นทรงกระบอก และมีเข็มพิษ</p>
@@ -182,7 +182,7 @@
                             </div>
                             <!-- Icon Three -->
                             <div class="col-3 col-6">
-                                <div class="feature phylum-background3">
+                                <div class="feature phylum-background3 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">แพลทีเฮลมินทิส</h2>
                                         <p>สิ่งมีชีวิตที่มีเนื้อเยื่อถึงสามชั้นเป็นพวกแรก และมีลำตัวแบน</p>
@@ -192,7 +192,7 @@
                             </div>
                             <!-- Icon Four -->
                             <div class="col-3 col-6">
-                                <div class="feature phylum-background4">
+                                <div class="feature phylum-background4 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">นีมาโทดา</h2>
                                         <p>สิ่งมีชีวิตที่มีเนื้อเยื่อถึงสามชั้นเป็นพวกแรก และมีลำตัวกลม</p>
@@ -202,7 +202,7 @@
                             </div>
                             <!-- Icon Five -->
                             <div class="col-3 col-6">
-                                <div class="feature phylum-background5">
+                                <div class="feature phylum-background5 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">แอนนิลิดา</h2>
                                         <p>สิ่งมีชีวิตมีปล้องจำพวกแรก ที่มีระบบกล้ามเนื้อ</p>
@@ -212,7 +212,7 @@
                             </div>
                             <!-- Icon Six -->
                             <div class="col-3 col-6">
-                                <div class="feature phylum-background6">
+                                <div class="feature phylum-background6 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">อาร์โทรโพดา</h2>
                                         <p>สิ่งมีชีวิตประเภทแมลงที่สามารถพบได้แทบทุกแห่งบนโลก</p>
@@ -222,7 +222,7 @@
                             </div>
                             <!-- Icon Seven -->
                             <div class="col-3 col-6">
-                                <div class="feature phylum-background7">
+                                <div class="feature phylum-background7 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">มอลลัสกา</h2>
                                         <p>สิ่งมีชีวิตที่มีลำตัวที่นิ่ม แต่สร้างเปลือกแข็งมาห่อหุ้มไว้</p>
@@ -232,7 +232,7 @@
                             </div>
                             <!-- Icon Eight -->
                             <div class="col-3 col-6">
-                                <div class="feature phylum-background8">
+                                <div class="feature phylum-background8 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">เอไคโนเตอร์มาตา</h2>
                                         <p>สิ่งมีชีวิตใต้ท้องทะเลที่มีเปลือกแข็ง หรือมีหนามแหลม</p>
@@ -242,7 +242,7 @@
                             </div>
                             <!-- Icon Nine -->
                             <div class="col-3 col-6">
-                                <div class="feature phylum-background9">
+                                <div class="feature phylum-background9 hide">
                                     <div class="frame">
                                         <h2 class="feature-title">คอร์ดาตา</h2>
                                         <p>สิ่งมีชีวิตที่มีกระดูกสันหลัง กราม และสติปัญญา</p>
@@ -261,7 +261,7 @@
                         <h2 class="section-title"><b>About Us</b></h2>
                             <div class="row">
                                 <div class="col-4">
-                                    <div class="card1">
+                                    <div class="card1 hide">
                                         <img src="images/member1.jpg" alt="John" style="width:100%">
                                         <p class="title1">นายฐิติกร ผดุงเวทสวัสดิ์<p>
                                         <p class="title2">รหัสนักศึกษา: 60070018</p>
@@ -270,7 +270,7 @@
                                             </div>
                                 </div>
                                 <div class="col-4">
-                                    <div class="card1">
+                                    <div class="card1 hide">
                                         <img src="images/member2.jpg" alt="John" style="width:100%">
                                         <p class="title1">นางสาวณัฐปภัสร์ อยู่ยง<p>
                                         <p class="title2">รหัสนักศึกษา: 60070024</p>
@@ -279,7 +279,7 @@
                                             </div>
                                 </div>
                             <div class="col-4">
-                                <div class="card1">
+                                <div class="card1 hide">
                                         <img src="images/member3.jpg" alt="John" style="width:100%">
                                         <p class="title1">นายณัฐวุฒิ เตชะศรีบูรพา<p>
                                         <p class="title2">รหัสนักศึกษา: 60070025</p>
@@ -292,5 +292,6 @@
                 </div>
             </main>
 </div>
+
 </body>
 </html>
