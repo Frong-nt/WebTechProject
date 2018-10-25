@@ -14,10 +14,7 @@ body {
     font-weight: 300;
     line-height: 1.5;
     margin: 0;
-    /*background-color: #000;*/
-    background: #FDFC47;  /* fallback for old browsers */
-    /*background: -webkit-linear-gradient(to top, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to top, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FDFC47;
     background-image: linear-gradient(to right, #0f7282, #006d70, #006755, #005f35, #00550b);
 }
 
@@ -28,9 +25,6 @@ div {
 *, *:before, *:after {
     box-sizing: border-box;
 }
-
-/* html {
-  font-size: 15px; } */
 
 h1 {
     font-size: 2em;
@@ -99,24 +93,14 @@ p {
 
 .site-header.collapsed-nav {
     position: absolute;
-    /*top: 50px;*/
     width: 100%;
     left: 0;
 }
 
 .header-bar {
-    /**zoom: 1;*/
-    /*background: white;
-    /*border-radius: 5px;*/
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-
-
-
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);
+    background: linear-gradient(to bottom, #434343, #000000);
 }
 
 .header-bar:after {
@@ -147,11 +131,6 @@ p {
     font-size: 16px;
     font-size: 2em;
 }
-
-/*.branding .logo-type .site-description {
-    font-size: 12px;
-    font-size: 0.8em;
-}*/
 
 .main-navigation {
     *zoom: 1;
@@ -214,10 +193,6 @@ p {
     float: left;
 }
 
-.main-navigation .menu .menu-item.home a {
-    /* padding: 28px 30px 31px; */
-}
-
 .main-navigation .menu .menu-item a {
     font-size: 13px;
     font-size: 0.966666667em;
@@ -225,22 +200,13 @@ p {
     font-weight: 400;
     padding: 32px 30px 5px;
     display: block;
-    /* color: #8e9ca5; */
     -webkit-transition: .3s ease;
     transition: .3s ease;
-    /* border-bottom: 2px solid transparent; */
     line-height: normal;
 }
 
 .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
     color: #69acc7;
-    /* border-bottom: 2px solid #69acc7; */
-}
-
-/* .mobile-navigation {
-    padding: 30px;
-    clear: both;
-    display: none;
 }
 
 @media screen and (min-width: 991px) {
@@ -333,7 +299,6 @@ p {
 }
 .hero .slides .bg-cover6 {
   background-image: url("https://photos.simonilett.com/wp-content/uploads/2016/11/nudibranch-hypselodoris-pulchella-simon-ilett-underwater-photography-1920x1080.jpg");
-  /*opacity: 0.5 !important;*/
 }
 .hero .slides .bg-cover7 {
   background-image: url("https://i1.wp.com/inovabioedu.com.br/wp-content/uploads/2017/02/666924.jpg?fit=1920%2C1080");
@@ -358,7 +323,6 @@ p {
     font-size: 6em;
     font-weight: 300;
     text-shadow: 3px 3px #000;
-    /*opacity: 0.8 !important;*/
 }
 
 .hero .slide-content p {
@@ -381,8 +345,8 @@ p {
 }
 
 .hero .flex-control-nav li {
-display: inline-block;
-margin: 30px 5px;
+  display: inline-block;
+  margin: 30px 5px;
 }
 
 .hero .flex-control-nav li a {
@@ -425,7 +389,6 @@ margin: 30px 5px;
 }
 
 /* CONTAINER */
-
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -477,7 +440,6 @@ margin: 30px 5px;
 }
 
 /* BUTTON */
-
 .button, form input[type="submit"], form button, form input[type="reset"] {
     background: #e7edf1;
     display: inline-block;
@@ -508,14 +470,12 @@ margin: 30px 5px;
 
 
 /* Catarory Page */
-
 .section-title {
     font-size: 30px;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: 30px;
     color: black;
-    /*text-shadow: 5px 5px #000000;*/
 }
 
 
@@ -680,8 +640,6 @@ margin: 30px 5px;
 }
 
 /* Content Properties */
-
-
 .main-content .fullwidth-block .container .content-font p {
     font-size: 24px;
     color: #000;
@@ -695,7 +653,6 @@ margin: 30px 5px;
 }
 .content2{
     background-color: rgb(3, 47, 79);
-    /* padding: 5%; */
     border-radius: 20px;
 }
 
@@ -726,7 +683,6 @@ margin: 30px 5px;
 }
 
 .dropdown .dropbtn {
-    /*font-size: 25px;    */
     border: none;
     outline: none;
     color: #69acc7;
@@ -734,7 +690,7 @@ margin: 30px 5px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-        font-size: 16px;
+    font-size: 16px;
     font-size: 2em;
 }
 .dropdown-content {
@@ -763,42 +719,41 @@ margin: 30px 5px;
     display: block;
 }
 
-/*ABOUT US;    */
+/* ABOUT US */
 .card1 {
-  box-shadow: 0 18px 38px 0 rgba(0, 0, 0, 0.5);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
+    box-shadow: 0 18px 38px 0 rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
 }
 
 .title1 {
-  color: black;
-  font-size: 18px;
+    color: black;
+    font-size: 18px;
 }
 
 .title2 {
-  color: black;
-  font-size: 15px;
+    color: black;
+    font-size: 15px;
 }
 
 .card1 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
 .card1 button:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 /* fade*/
-.hide
-    {
-        opacity:0;
-    }
+.hide {
+  opacity:0;
+}
