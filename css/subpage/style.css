@@ -6,8 +6,13 @@ html {
     color: #000;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    height: 100%;
 }
-
+@media screen and (min-width: 960px) {
+    .content1 {
+        width-width: 860px;
+    }
+}
 body {
     color: #8e9ca5;
     font-family: 'Athiti', sans-serif;
@@ -15,10 +20,10 @@ body {
     line-height: 1.5;
     margin: 0;
     /*background-color: #000;*/
-    background: #FDFC47;  /* fallback for old browsers */
-    /*background: -webkit-linear-gradient(to top, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to top, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: linear-gradient(to right, #0f7282, #006d70, #006755, #005f35, #00550b);
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
 
 }
 
@@ -40,14 +45,16 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0.83em 0;
-    color: white;
+    color: black;
+    text-align: center;
 }
 
 h3 {
     font-size: 1.17em;
     margin: 1em 0;
+    color: black;
 }
 
 h4 {
@@ -415,7 +422,7 @@ p {
     /* The image used */
     background-image: url("pori.jpg");
 
-    min-height: 700px;
+    min-height: 75%;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -502,19 +509,40 @@ p {
 }
 
 /*content*/
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 700px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: #69acc7;
+.content1 .fullwidth-block .content2 .content-font p {
+    font-size: 24px;
+    color: #000;
+
+}
+.content3{
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    border-radius: 20px;
+    width: 800px;
+    padding: 50px;
+    margin: 50px;
+
+}
+.intro{
+    background: #fff;
+    width: 50%;
+    height: 50%;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+}
+.intro img{
+     width: 100%;
+     height: 100%;
+}
+.intro p{
+    font-size:20px;
 }
 
-.price {
-  color: white;
-  font-size: 22px;
-}
+
 
 /* Position the image container (needed to position the left and right arrows) */
 .container-img {
@@ -605,3 +633,4 @@ p {
     width: 500px;
     height: 500px;
 }
+
