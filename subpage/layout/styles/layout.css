@@ -2,6 +2,9 @@
 @import url("font-awesome.min.css");
 @import url("framework.css");
 
+body{
+	 font-family: 'Athiti', sans-serif;
+}
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row1, .row1 a{}
@@ -14,7 +17,12 @@
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:20px 0px 0px -150px;}
+#header #logo{
+	margin:20px 0px 0px -150px;
+}
+#header #logo h1{
+	font-family: 'Athiti', sans-serif;
+}
 #header #logo h1{margin:0; padding:0; font-size:2em;color: white;}
 
 
@@ -27,7 +35,9 @@
 #pageintro .heading{margin:0 0 30px 0; padding:0; font-size:4rem; font-weight:700;color: white;}
 #pageintro p{margin:0; font-size:1.2rem; line-height:2rem;}
 #pageintro footer{margin-top:30px;}
-
+#pageintro h2{
+	font-family: 'Athiti', sans-serif;
+}
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
@@ -38,7 +48,9 @@
 
 .sectiontitle{display:block; max-width:80%; margin:0px auto 60px; text-align:center;}
 .sectiontitle *{margin:-30px;}
-
+.sectiontitle h6{
+	 font-family: 'Athiti', sans-serif;
+}
 .services{text-align:center;}
 .services li article{padding:20px; border:1px solid;}
 .services li article *{margin:0; padding:0;}
