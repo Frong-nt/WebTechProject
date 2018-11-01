@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.columnpic {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rowpic::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.overlaypic {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 30%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.picc {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.rowpicr:hover .overlaypic {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="rowpic">
+  <div class="columnpic">
+    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Snow" class="picc" style="width:100%">
+    <div class="overlaypic">My Name is John</div>
+  </div>
+<div class="rowpic">
+  <div class="columnpic">
+    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Snow" class="picc" style="width:100%">
+    <div class="overlaypic">My Name is John</div>
+  </div>
+<div class="rowpic">
+  <div class="columnpic">
+    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Snow" class="picc" style="width:100%">
+    <div class="overlaypic">My Name is John</div>
+  </div>
+
+
+
+</body>
+</html>

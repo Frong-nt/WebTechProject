@@ -55,7 +55,7 @@ label{margin-bottom:5px;}
 
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:uppercase;color: white;}
+h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:2.5em; line-height:normal; font-weight:normal; text-transform:uppercase;color: black;}
 .heading.nospace{margin-bottom:0;}
 
 address{font-style:normal; font-weight:normal;}
@@ -83,7 +83,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 --------------------------------------------------------------------------------------------------------------- */
 .one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
 
-.first{margin-left:0; clear:left;}
+.first{margin-left:0; clear:left;margin-top:-60px;}
 
 .one_quarter{width:22.69938650306748%;}
 .one_third{width:100%;}
@@ -125,7 +125,7 @@ border-radius: 0 3px 3px 0;user-select: none;-webkit-user-select: none;}
 .numbertext {color: #f2f2f2;font-size: 12px;padding: 8px 12px; position: absolute;top: 0;
 }
 /* Container for image text */
-.caption-container {text-align: center;background-color: #fff;padding: 2px 16px;color:black;}
+.caption-container {text-align: center;background-color: #fff;padding: 2px 16px;color:#bfa600;font-size: 1.5em}
 
 .row:after {
   content: "";

@@ -28,12 +28,12 @@ body{
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:180px 0; text-align:center;}
+#pageintro{padding:265px 0; text-align:center;}
 
 #pageintro > div{display:block; max-width:60%; margin:0 auto;}
 #pageintro > div *{line-height:normal;}
 #pageintro .heading{margin:0 0 30px 0; padding:0; font-size:4rem; font-weight:700;color: white;}
-#pageintro p{margin:0; font-size:1.2rem; line-height:2rem;}
+#pageintro p{margin:0; font-size:2rem; line-height:2rem;}
 #pageintro footer{margin-top:30px;}
 #pageintro h2{
 	font-family: 'Athiti', sans-serif;
@@ -41,13 +41,13 @@ body{
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:80px 0;}
+.container{padding:0;}
 
 /* Content */
 .container .content{}
 
 .sectiontitle{display:block; max-width:80%; margin:0px auto 60px; text-align:center;}
-.sectiontitle *{margin:-30px;}
+.sectiontitle *{margin:0px;}
 .sectiontitle h6{
 	 font-family: 'Athiti', sans-serif;
 }
@@ -79,14 +79,15 @@ body{
 .excerpts article .hgroup + figure > a:hover::before, .excerpts article .hgroup + figure > a:hover::after{opacity:1;}
 
 .excerpts article .hgroup, .excerpts article .txtwrap, .excerpts article footer{padding:10px;}
-.excerpts article .hgroup, .excerpts article footer{text-align:center;background:	#A52A2A; }
-.excerpts article .hgroup .heading{margin:0; font-size:2rem; text-align:center;color: white;}
-.excerpts article .hgroup em{display:block; font-size:1rem; font-style:normal;color: white;}
+.excerpts article .hgroup, .excerpts article footer{text-align:center;background:linear-gradient(to bottom right, #bfa600 0%, #ffffcc 100%); }
+.excerpts article .hgroup .heading{margin:0; font-size:2.5rem; text-align:center;color: black;}
+.excerpts article .hgroup em{display:block; font-size:1.5rem; font-style:normal;color: black;}
 .excerpts article .hgroup .meta{text-align:center;}
 .excerpts article .hgroup .meta li{display:inline-block; font-size:.8rem;}
 .excerpts article .hgroup .meta li::after{margin-left:5px; content:"/";}
 .excerpts article .hgroup .meta li:last-child::after{margin:0; content:"";}
-.excerpts article .txtwrap *{margin:0; padding:0;color: black;}
+.excerpts article .txtwrap *{margin:0; padding:0;color: black;font-size: 1.4em;}
+.txtwrap .txt span{font-size: 1.5em;color:#bfa600;}
 .excerpts article footer{border-top:1px solid;}
 
 #stats{text-align:center;}
@@ -227,7 +228,7 @@ label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#A2B70D;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.4);}
-.overlay.coloured::after{background:#A52A2A;}
+.overlay.coloured::after{background:linear-gradient(to bottom right, #bfa600 0%, #ffffcc 100%);;}
 
 .btn, .btn.inverse:hover{color:black; background-color:#e7edf1; border-color:#69acc7;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
@@ -236,9 +237,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#A2B70D;}
 /* Rows */
 .row1{color:#FFFFFF; background-color:rgba(0,0,0,.60);position: fixed;}
 .row2{color:#191919; background-color:#FFFFFF;}
-.row2, .group {background: #C6FFDD;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.row2, .group {background: #fff;
 }
 .row3{color:#CBCBCB;}
 .row4, .row4 a{color:#CBCBCB; background-color:#191919;}
@@ -253,7 +252,7 @@ background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10
 .services li article > a{color:inherit;}
 .services li article:hover > a i{color:#A2B70D;}
 
-.excerpts article{border-color:#fff; box-shadow:0px 0px 5px 5px #EDEDED;background: #fff;}/* There is sadly no box-shadow-color, so the full tag is here */
+.excerpts article{border-color:#fff; box-shadow:0px 0px 5px 5px #EDEDED;background: #F3F1F2;}/* There is sadly no box-shadow-color, so the full tag is here */
 .excerpts article:hover{border-color:#69acc7; box-shadow:0px 0px 5px 5px rgba(162,183,13,.2)/* #A2B70D */;}
 
 .excerpts article figure figcaption{color:#FFFFFF;}
@@ -265,12 +264,12 @@ background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10
 .excerpts article .hgroup + figure > a:hover::after{color:#FFFFFF;}
 
 .intro{
-    background: white;
+    background: linear-gradient(to bottom right, #bfa600 0%, #ffffcc 100%);
     width: 50%;
     height: 50%;
     margin: 10px auto;
-    padding: 30px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 10px;
     color: black;
     text-align: center;
 }
@@ -281,6 +280,47 @@ background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10
 }
 .intro p{
     font-size:15px;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+
+.columnpic {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rowpic::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.overlaypic {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: black;
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.picc {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.rowpicr .overlaypic {
+  opacity: 1;
 }
 
 
