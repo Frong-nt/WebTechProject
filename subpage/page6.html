@@ -89,28 +89,125 @@
           <div class="wrapper overlay coloured">
           <section class="hoc container clear"> 
           <div class="sectiontitle">
-          <h6 class="heading"><strong>ภาพประกอบไฟลัมอาร์โทรโพดา</strong></h6>
+          <h6 class="heading"><strong>ภาพประกอบไฟลัมคอร์ดาตา</strong></h6>
           </div>
-          <div class="rowpic">
-  <div class="columnpic">
-    <img src="images/porifera2.jpg" alt="Snow" class="picc" style="width:100%">
-    <div class="overlaypic">My Name is John</div>
-  </div>
-<div class="rowpic">
-  <div class="columnpic">
-    <img src="images/porifera2.jpg" alt="Snow" class="picc" style="width:100%">
-    <div class="overlaypic">My Name is John</div>
-  </div>
-<div class="rowpic">
-  <div class="columnpic">
-    <img src="images/porifera2.jpg" alt="Snow" class="picc" style="width:100%">
-    <div class="overlaypic">My Name is John</div>
-  </div>
+          <div class="mainpic">
+        <!-- Portfolio Gallery Grid -->
+        <div class="rowpic">
+          <div class="columnpic">
+            <div class="contentpic">
+              <img src="images/Arthropoda1.jpg" alt="Mountains" style="width:100%">
+              <h1 class="contentfont"><b>ปู</b>  (Class Crusatacea)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+            <img src="images/Arthropoda3.jpg" alt="Lights" style="width:100%">
+              <h1 class="contentfont"><b>กุ้งทะเล</b>  (Class Crusatacea)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+              <img src="images/Arthropoda5.jpg" alt="Mountains" style="width:100%">
+              <h1 class="contentfont"><b>แมงดาทะเล</b>  (Class Merostoma)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+            <img src="images/Arthropoda6.jpg" alt="Nature" style="width:100%">
+              <h1 class="contentfont"><b>แมงมุม</b>   (Class Archnida)</h1>
+            </div>
+          </div>
+
+          <div class="columnpic">
+            <div class="contentpic">
+            <img src="images/Arthropoda7.jpg" alt="Lights" style="width:100%">
+              <h1 class="contentfont"><b>แมงป่อง</b>  (Class Archnida)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+            <img src="images/Arthropoda8.jpg" alt="Nature" style="width:100%">
+              <h1 class="contentfont"><b>บึ้ง</b>  (Class Archnida)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+              <img src="images/Arthropoda9.jpg" alt="Mountains" style="width:100%">
+              <h1 class="contentfont"><b>แมลงวัน</b>  (Class Insecta)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+            <img src="images/Arthropoda10.jpg" alt="Lights" style="width:100%">
+              <h1 class="contentfont"><b>ผีเสื้อ</b>  (Class Insecta)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+            <img src="images/Arthropoda11.jpg" alt="Nature" style="width:100%">
+              <h1 class="contentfont"><b>แมลงปอ</b>  (Class Insecta)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+              <img src="images/Arthropoda12.jpg" alt="Mountains" style="width:100%">
+              <h1 class="contentfont"><b>มด</b>  (Class Insecta)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+            <img src="images/Arthropoda13.jpg" alt="Lights" style="width:100%">
+              <h1 class="contentfont"><b>ตั๊กแตน</b>  (Class Insecta)</h1>
+            </div>
+          </div>
+          <div class="columnpic">
+            <div class="contentpic">
+            <img src="images/Arthropoda2.jpg" alt="Nature" style="width:100%">
+              <h1 class="contentfont"><b>ตะขาบ</b>  (Class Chilopoda)</h1>
+            </div>
+          </div>
+        <!-- END GRID -->
+        </div>
+
+        <!-- END MAIN -->
+        </div>
+        <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("columnpic");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "showpic");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "showpic");
+          }
+        }
+
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+
+        </script>
         </footer>
-          </div>
-
-
-
+        </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
