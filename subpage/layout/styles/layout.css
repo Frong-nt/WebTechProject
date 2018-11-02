@@ -1,9 +1,9 @@
 @charset "utf-8";
 @import url("font-awesome.min.css");
 @import url("framework.css");
-
+@import url('https://fonts.googleapis.com/css?family=Maitree');
 body{
-	 font-family: 'Athiti', sans-serif;
+	  font-family: 'Maitree', serif;
 }
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -15,13 +15,17 @@ body{
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{}
 
+.group h6{
+	font-family: 'Maitree', serif;
+	font-weight: bold;
+}
 #header #logo{
 	margin:20px 0px 0px -150px;
 }
 #header #logo h1{
-	font-family: 'Athiti', sans-serif;
+	 font-family: 'Maitree', serif;
+	 font-weight: bold;
 }
 #header #logo h1{margin:0; padding:0; font-size:2em;color: white;}
 
@@ -36,7 +40,7 @@ body{
 #pageintro p{margin:0; font-size:2rem; line-height:2rem;}
 #pageintro footer{margin-top:30px;}
 #pageintro h2{
-	font-family: 'Athiti', sans-serif;
+	 font-family: 'Maitree', serif;
 }
 
 /* Content Area
@@ -46,10 +50,15 @@ body{
 /* Content */
 .container .content{}
 
-.sectiontitle{display:block; max-width:80%; margin:0px auto 60px; text-align:center;}
+.sectiontitle{
+	display:block; 
+	max-width:80%; margin:0px auto 60px;
+	text-align:center;
+	
+}
 .sectiontitle *{margin:0px;}
 .sectiontitle h6{
-	 font-family: 'Athiti', sans-serif;
+	  font-family: 'Maitree', serif;
 }
 .services{text-align:center;}
 .services li article{padding:20px; border:1px solid;}
@@ -87,9 +96,13 @@ body{
 .excerpts article .hgroup .meta li::after{margin-left:5px; content:"/";}
 .excerpts article .hgroup .meta li:last-child::after{margin:0; content:"";}
 .excerpts article .txtwrap *{margin:0; padding:0;color: black;font-size: 1.4em;}
-.txtwrap .txt span{font-size: 1.5em;color:#bfa600;}
+.txtwrap .txt span{font-size: 1.5em;color:#bfa600;font-family: 'Maitree', serif; font-weight: bold;}
 .excerpts article footer{border-top:1px solid;}
-
+.txtwrap{
+	line-height: 2.3em;
+	margin: 5%;
+	font-family: 'Maitree', serif;
+}
 #stats{text-align:center;}
 #stats li *{margin:0; padding:0;}
 #stats li i{margin-bottom:30px;}

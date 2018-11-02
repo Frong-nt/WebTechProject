@@ -1,7 +1,8 @@
+
 /*STRUCTURE CONTENT*/
 html {
     font-size: 15px;
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Maitree', serif;
     background: #fff;
     color: #000;
     -webkit-text-size-adjust: 100%;
@@ -10,7 +11,7 @@ html {
 
 body {
     color: #8e9ca5;
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Maitree', serif;
     font-weight: 300;
     line-height: 1.5;
     margin: 0;
@@ -720,7 +721,6 @@ p {
 
 
 /* Content Properties */
-
 .content{
     color: black;
 }
@@ -730,8 +730,9 @@ p {
 
 
 .content p{
-    font-size: 23px;
+    font-size: 22px;;
 }
+
 .intro{
   
    background: linear-gradient(to bottom right, #bfa600 0%, #ffffcc 100%);
@@ -825,6 +826,7 @@ p {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    font-family: 'Maitree', serif;
 }
 
 .card1 button:hover {
