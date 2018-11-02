@@ -301,43 +301,46 @@ input:focus, textarea:focus, *:required:focus{border-color:#A2B70D;}
     box-sizing: border-box;
 }
 
+/* Center website */
+.mainpic {
+    max-width: 1000px;
+    margin: auto;
+}
+.rowpic {
+    margin: 10px -16px;
+}
+/* Add padding BETWEEN each column */
+.rowpic,
+.rowpic > .columnpic {
+    padding: 10px;
+}
+/* Create three equal columns that floats next to each other */
 .columnpic {
     float: left;
     width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+/* Clear floats after rows */ 
+.rowpic:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Content */
+.contentpic {
+    background-color: white;
     padding: 5px;
 }
-
-/* Clearfix (clear floats) */
-.rowpic::after {
-    content: "";
-    clear: both;
-    display: table;
+.contentfont{
+    padding: 15px 0px 0px 0px;
+    font-size: 1em;
+    color:black;
+    text-align: center;
 }
-.overlaypic {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: black;
-  color: #f1f1f1; 
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
-.picc {
+/* The "show" class is added to the filtered elements */
+.showpic {
   display: block;
-  width: 100%;
-  height: auto;
 }
-.rowpicr .overlaypic {
-  opacity: 1;
-}
-
-
-
 /* Footer */
 #footer .heading{color: white;}
 #footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.2);}
