@@ -15,7 +15,7 @@ body {
     line-height: 1.5;
     margin: 0;
     background: #F3F1F2;
-  
+
 }
 
 div {
@@ -285,31 +285,31 @@ p {
 }
 
 .hero .slides .bg-cover1 {
-  background-image: url("https://9fc6ff.medialib.edu.glogster.com/UHb4LGETYREGvVMDDkdh/media/a4/a4aee882dc171ecd38f86e47ef9b9cc3e476f38c/octopus.jpg");
+  background-image: url("../images/Mollusca.jpg");
 }
 .hero .slides .bg-cover2 {
-  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/11/28/844809/b0b19945ac809d4fae253cc3872e494e.jpg");
+  background-image: url("../images/Porifera.jpg");
 }
 .hero .slides .bg-cover3 {
-  background-image: url("http://biodiversitybasics.files.wordpress.com/2014/03/ants.jpg");
+  background-image: url("../images/Arthropoda.jpg");
 }
 .hero .slides .bg-cover4 {
-  background-image: url("https://i.pinimg.com/originals/0a/82/1b/0a821b907790ba010080ce47b69960da.jpg");
+  background-image: url("../images/Chordata.jpg");
 }
 .hero .slides .bg-cover5 {
-  background-image: url("https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1452997901/030989_Matthew_Meier_xsmw0u.jpg");
+  background-image: url("../images/Annelida.jpg");
 }
 .hero .slides .bg-cover6 {
-  background-image: url("https://photos.simonilett.com/wp-content/uploads/2016/11/nudibranch-hypselodoris-pulchella-simon-ilett-underwater-photography-1920x1080.jpg");
+  background-image: url("../images/Platyhelminthes.jpg");
 }
 .hero .slides .bg-cover7 {
-  background-image: url("https://i1.wp.com/inovabioedu.com.br/wp-content/uploads/2017/02/666924.jpg?fit=1920%2C1080");
+  background-image: url("../images/Cnidalia.jpg");
 }
 .hero .slides .bg-cover8 {
-  background-image: url("https://s.newsweek.com/sites/www.newsweek.com/files/styles/feature/public/2014/09/25/starfish.png");
+  background-image: url("../images/Echinodermata.png");
 }
 .hero .slides .bg-cover9 {
-  background-image: url("https://sites.google.com/site/bioppk/_/rsrc/1472680087853/home/xanacakr-satw/fi-lamne-ma-tho-da-phylum-nematoda/Nematoda2.jpg?height=1301&amp;width=1609");
+  background-image: url("../images/Nematoda.jpg");
 }
 
 .hero .slide-content {
@@ -498,31 +498,31 @@ p {
     font-size:18px;
 }
 .phylum-background1{
-    background-image: url("https://images.slideplayer.com/23/6677217/slides/slide_3.jpg");
+    background-image: url("../images/Porifera2.jpg");
 }
 .phylum-background2{
-    background-image: url("https://a-z-animals.com/media/animals/images/original/jellyfish4.jpg");
+    background-image: url("../images/Cnidalia2.jpg");
 }
 .phylum-background3{
-    background-image: url("http://www.starfish.ch/Fotos/worms-Wuermer/plathelminthes-Plattwurm/Pseudobiceros-gloriosus3.jpg");
+    background-image: url("../images/Platyhelminthes2.jpg");
 }
 .phylum-background4{
-    background-image: url("http://photos1.blogger.com/blogger2/4255/902/400/IMGP3384.jpg");
+    background-image: url("../images/Nematoda2.jpg");
 }
 .phylum-background5{
-    background-image: url("https://www.thefix.com/sites/default/files/styles/article/public/earthworm%20on%20leaf.jpg");
+    background-image: url("../images/Annelida2.jpg");
 }
 .phylum-background6{
-    background-image: url("https://www.natgeokids.com/wp-content/uploads/2017/05/scorpion-facts-3.jpg");
+    background-image: url("../images/Arthropoda2.jpg");
 }
 .phylum-background7{
-    background-image: url("https://www.weet-magazine.nl/wp-content/uploads/2016/07/snail-1124028_960_720-660x400.jpg");
+    background-image: url("../images/Mollusca2.jpg");
 }
 .phylum-background8{
-    background-image: url("http://www.untamedscience.com/science/wp-content/uploads/2013/11/Screen-Shot-2013-11-03-at-7.07.10-PM.png");
+    background-image: url("../images/Echinodermata2.png");
 }
 .phylum-background9{
-    background-image: url("https://vignette.wikia.nocookie.net/cats/images/e/ef/African_lion_king-wide.jpg/revision/latest?cb=20131126052253&path-prefix=en");
+    background-image: url("../images/Chordata2.jpg");
 }
 .feature .frame{
     background: rgba(0, 0, 0, 0.5);
@@ -733,7 +733,7 @@ p {
     font-size: 23px;
 }
 .intro{
-  
+
    background: linear-gradient(to bottom right, #bfa600 0%, #ffffcc 100%);
     width: 100%;
     height: 70%;
@@ -800,7 +800,7 @@ p {
     max-width: 300px;
     margin: auto;
     text-align: center;
-   
+
 }
 
 .title1 {
