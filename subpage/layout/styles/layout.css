@@ -32,7 +32,7 @@ body{
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:265px 0; text-align:center;}
+#pageintro{padding:200px 0; text-align:center;}
 
 #pageintro > div{display:block; max-width:60%; margin:0 auto;}
 #pageintro > div *{line-height:normal;}
@@ -253,7 +253,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#A2B70D;}
 .row2, .group {background: #fff;
 }
 .row3{color:#CBCBCB;}
-.row4, .row4 a{color:#CBCBCB; background-color:#191919;}
+.row4, .row4 a{color:#CBCBCB; background-color:#191919;text-align: center;}
 
 
 /* Header */

@@ -1,4 +1,4 @@
-
+@import url(font-awesome.min.css);
 /*STRUCTURE CONTENT*/
 html {
     font-size: 15px;
@@ -16,6 +16,7 @@ body {
     line-height: 1.5;
     margin: 0;
     background: #F3F1F2;
+    font-family: FontAwesome;
 
 }
 
@@ -86,6 +87,261 @@ p {
     margin-top: 0;
 }
 
+/*video background*/
+ { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* video ifram youtube*/
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%
+    margin 10px;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+/* Banner */
+
+    #banner {
+        display: -ms-flexbox;
+        -ms-flex-pack: center;
+        -ms-flex-align: center;
+        padding: 8em 0 6em 0;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border-top: 0;
+        min-height: 100vh;
+        height: 100vh;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+    }
+
+        #banner .inner {
+            position: absolute;
+            top: 0; right: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.3);
+            color: #fff;
+            padding: 22rem; 
+            font-family: 'Maitree', serif;
+        }
+
+        #banner h1 {
+            font-size: 8em;
+            line-height: 1.1;
+            color: rgba(255, 255, 255, 0.75);
+            text-transform: none;          
+            text-shadow: 3px 3px #000;
+        }
+
+        #banner p {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 1.75em;
+        }
+
+    @-moz-keyframes more {
+        0% {
+            bottom: -3em;
+        }
+
+        100% {
+            bottom: 2em;
+        }
+    }
+
+    @-webkit-keyframes more {
+        0% {
+            bottom: -3em;
+        }
+
+        100% {
+            bottom: 2em;
+        }
+    }
+
+    @-ms-keyframes more {
+        0% {
+            bottom: -3em;
+        }
+
+        100% {
+            bottom: 2em;
+        }
+    }
+
+    @keyframes more {
+        0% {
+            bottom: -3em;
+        }
+
+        100% {
+            bottom: 2em;
+        }
+    }
+
+        #banner .more {
+            -moz-transition: height 0.2s ease;
+            -webkit-transition: height 0.2s ease;
+            -ms-transition: height 0.2s ease;
+            transition: height 0.2s ease;
+            -moz-animation: more 0.75s ease-out 3s forwards;
+            -webkit-animation: more 0.75s ease-out 3s forwards;
+            -ms-animation: more 0.75s ease-out 3s forwards;
+            animation: more 0.75s ease-out 3s forwards;
+            background-color: rgba(255, 255, 255, 0.15);
+            border: 0;
+            border-radius: 1em 1em 0 0;
+            bottom: -3em;
+            color: rgba(255, 255, 255, 0.75);
+            display: block;
+            height: 3em;
+            left: 50%;
+            margin-left: -1.5em;
+            overflow: hidden;
+            position: absolute;
+            text-indent: 3em;
+            white-space: nowrap;
+            width: 3em;
+            z-index: 2;
+            border-radius: 100%;
+            text-decoration: none;
+        }
+
+            #banner .more:before {
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-font-smoothing: antialiased;
+                font-family: FontAwesome;
+                font-style: normal;
+                font-weight: normal;
+                text-transform: none !important;
+            }
+
+            #banner .more:hover {
+                background: none;
+                color: rgba(255, 255, 255, 0.5);
+                box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
+            }
+
+                #banner .more:hover:before {
+                    color: rgba(255, 255, 255, 0.5);
+                }
+
+            #banner .more:before {
+                content: '\f107';
+                color: #FFF;
+                font-size: 2em;
+                position: absolute;
+                right: .425em;
+                bottom: -.075em;
+            }
+
+        #banner:before {
+            -moz-transition: opacity 3s ease;
+            -webkit-transition: opacity 3s ease;
+            -ms-transition: opacity 3s ease;
+            transition: opacity 3s ease;
+            -moz-transition-delay: 1.25s;
+            -webkit-transition-delay: 1.25s;
+            -ms-transition-delay: 1.25s;
+            transition-delay: 1.25s;
+            content: '';
+            display: block;
+            background-color: #000;
+            height: 100%;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 980px) {
+
+            #banner {
+                font-size: .85em;
+            }
+
+                #banner br {
+                    display: none;
+                }
+
+        }
+
+        @media screen and (max-width: 736px) {
+
+            #banner {
+                background-attachment: scroll;
+                min-height: 0;
+                padding: 8em 2em 4em 2em;
+            }
+
+                #banner h1 {
+                    font-size: 6em;
+                }
+
+        }
+
+        @media screen and (max-width: 480px) {
+
+            #banner h1 {
+                font-size: 4em;
+            }
+
+            #banner .more {
+                display: none;
+            }
+
+        }
+
+        body.is-loading #banner:before {
+            opacity: 1;
+        }
+
+/* Banner */
 /*HEADER AND NAVBAR*/
 .site-header {
     position: relative;
@@ -263,55 +519,7 @@ p {
     height: 0;
 }
 
-.hero .slides {
-    list-style: none;
-    *zoom: 1;
-}
 
-.hero .slides:after {
-    content: " ";
-    clear: both;
-    display: block;
-    overflow: hidden;
-    height: 0;
-}
-
-.hero .slides li {
-    width: 100%;
-    margin-right: -100%;
-    float: left;
-    min-height: 753px !important;
-    padding-bottom: 100px;
-    background-size: cover;
-}
-
-.hero .slides .bg-cover1 {
-  background-image: url("../images/Mollusca.jpg");
-}
-.hero .slides .bg-cover2 {
-  background-image: url("../images/Porifera.jpg");
-}
-.hero .slides .bg-cover3 {
-  background-image: url("../images/Arthropoda.jpg");
-}
-.hero .slides .bg-cover4 {
-  background-image: url("../images/Chordata.jpg");
-}
-.hero .slides .bg-cover5 {
-  background-image: url("../images/Annelida.jpg");
-}
-.hero .slides .bg-cover6 {
-  background-image: url("../images/Platyhelminthes.jpg");
-}
-.hero .slides .bg-cover7 {
-  background-image: url("../images/Cnidalia.jpg");
-}
-.hero .slides .bg-cover8 {
-  background-image: url("../images/Echinodermata.png");
-}
-.hero .slides .bg-cover9 {
-  background-image: url("../images/Nematoda.jpg");
-}
 
 .hero .slide-content {
     text-align: center;
@@ -836,3 +1044,8 @@ p {
 .hide {
   opacity:0;
 }
+/* Copyright
+--------------------------------------------------------------------------------------------------------------- */
+#copyright{padding:20px 0;}
+#copyright *{margin:0; padding:0;}
+.row4, .row4 a{color:#CBCBCB; background-color:#191919;text-align: center;}
