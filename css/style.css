@@ -165,7 +165,7 @@ p {
             width: 100%;
             background: rgba(0,0,0,0.3);
             color: #fff;
-            padding: 22rem; 
+            padding: 20rem;
             font-family: 'Maitree', serif;
         }
 
@@ -173,7 +173,7 @@ p {
             font-size: 8em;
             line-height: 1.1;
             color: rgba(255, 255, 255, 0.75);
-            text-transform: none;          
+            text-transform: none;
             text-shadow: 3px 3px #000;
         }
 
@@ -1043,6 +1043,15 @@ p {
 /* fade*/
 .hide {
   opacity:0;
+}
+
+/* Video background */
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 /* Copyright
 --------------------------------------------------------------------------------------------------------------- */
