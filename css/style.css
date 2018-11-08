@@ -1,3 +1,4 @@
+@import url(font-awesome.min.css);
 /*STRUCTURE CONTENT*/
 html {
     font-size: 15px;
@@ -15,6 +16,7 @@ body {
     line-height: 1.5;
     margin: 0;
     background: #F3F1F2;
+    font-family: FontAwesome;
 
 }
 
@@ -161,9 +163,9 @@ p {
             position: absolute;
             top: 0; right: 0;
             width: 100%;
-            background: rgba(0,0,0,0.0);
+            background: rgba(0,0,0,0);
             color: #fff;
-            padding: 20rem;
+            padding: 22rem; 
             font-family: 'Maitree', serif;
         }
 
@@ -171,7 +173,7 @@ p {
             font-size: 8em;
             line-height: 1.1;
             color: rgba(255, 255, 255, 0.75);
-            text-transform: none;
+            text-transform: none;          
             text-shadow: 3px 3px #000;
         }
 
@@ -753,7 +755,6 @@ p {
     font-size: 16px;
     font-size: 1.0666666667em;
     margin-bottom: 30px;
-    padding: 0 5%;
 }
 
 .post {
@@ -937,7 +938,7 @@ p {
 
 
 .content p{
-    font-size: 21px;;
+    font-size: 22px;;
 }
 
 .intro{
@@ -1042,21 +1043,6 @@ p {
 /* fade*/
 .hide {
   opacity:0;
-}
-
-/* Video background */
-#myVideo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-/* Image resized */
-.intro .resized-img {
-  width: 1191px !important;
-  height: 640px !important;
 }
 /* Copyright
 --------------------------------------------------------------------------------------------------------------- */
