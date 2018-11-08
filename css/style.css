@@ -161,7 +161,7 @@ p {
             position: absolute;
             top: 0; right: 0;
             width: 100%;
-            background: rgba(0,0,0,0.3);
+            background: rgba(0,0,0,0.0);
             color: #fff;
             padding: 20rem;
             font-family: 'Maitree', serif;
